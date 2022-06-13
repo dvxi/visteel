@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+.homepage-section {
+  .carousel-caption {
+    min-height: 50vh;
+    h1 {
+      font-weight: 800;
+    }
+  }
+
+  .carousel-inner {
+    img {
+      filter: brightness(50%);
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}

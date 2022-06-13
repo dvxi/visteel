@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.nav-section {
+  z-index: 2;
+}
+
+.btn-group {
+  z-index: 2;
+}
+
+.btn {
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+//IMPORT bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 800 !important;
+}
+
+.header {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+    display: block;
+  }
+  h1 {
+    position: absolute;
+  }
+}
